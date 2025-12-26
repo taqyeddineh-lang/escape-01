@@ -1,85 +1,85 @@
 export const missionConfig = {
-    title: "Space Rescue Protocol",
+    title: "Project Zeta Recovery",
     puzzles: [
         {
             id: "puzzle_01",
-            title: "FUEL SYSTEM REPAIR",
-            prompt: "Look at the circle. It is 1/2 shaded. Which fraction is equivalent? <br><br>Target: <strong>2/4</strong>",
+            title: "FUEL CELLS: MAIN TANK",
+            prompt: "Input frequency code matching the visual data on Clue Sheet 1, Problem 1.",
             hash: "MjQ=", // 24
-            hint: "Count the shaded parts (2) and total parts (4). Combine them.",
-            successMsg: "FUEL SYSTEM REPAIRED. TANK CAPACITY: 100%."
+            hint: "Look at the shaded region. 1 out of 2. Which fraction matches?",
+            successMsg: "FREQUENCY MATCHED. MAIN TANK ONLINE."
         },
         {
             id: "puzzle_02",
-            title: "OXIDIZER CALIBRATION",
-            prompt: "Multiply the numerator and denominator of 2/5 by 3.",
-            hash: "NjE1", // 615
-            hint: "2 x 3 = ? and 5 x 3 = ?",
-            successMsg: "OXIDIZER LEVELS STABILIZED. O2 FLOW: NORMAL."
+            title: "FUEL CELLS: RESERVE",
+            prompt: "Input reserve capacity code from Clue Sheet 1, Problem 2.",
+            hash: "NDY=", // 46
+            hint: "2 out of 3 parts are shaded. Which option equals 2/3?",
+            successMsg: "RESERVE POWER ENGAGED."
         },
         {
             id: "puzzle_03",
-            title: "HYDRAULICS",
-            prompt: "Simplify the fraction 10/20 to its smallest form.",
-            hash: "MTI=", // 12
-            hint: "Divide both top and bottom by 10.",
-            successMsg: "HYDRAULIC PRESSURE RESTORED."
+            title: "SIGNAL AMPLIFICATION",
+            prompt: "Enter the code for the amplified signal (2/5 x 3) from Clue Sheet 2, Problem 3.",
+            hash: "NjE1", // 615
+            hint: "Multiply top and bottom by 3. Combine the digits.",
+            successMsg: "SIGNAL BOOSTED."
         },
         {
             id: "puzzle_04",
-            title: "COMMS ARRAY LINK",
-            prompt: "3/4 = x/12. Solve for x.",
+            title: "ANTENNA RATIO",
+            prompt: "Enter signal strength 'x' for the antenna array (3/4 = x/12).",
             hash: "OQ==", // 9
-            hint: "4 times what equals 12? Multiply 3 by that same number.",
-            successMsg: "UPLINK ESTABLISHED. SIGNAL: STRONG."
+            hint: "4 times 3 is 12. So 3 times 3 is...?",
+            successMsg: "ANTENNA ALIGNED. LINK SECURE."
         },
         {
             id: "puzzle_05",
-            title: "NAV COMPUTER",
-            prompt: "Look at the Number Line. Point A is at 1/3. Point B is at 2/6. Are they equal? (YES/NO)",
-            hash: "WUVT", // YES
-            hint: "Simplify 2/6. Does it equal 1/3?",
-            successMsg: "COURSE PLOTTED. VECTOR ALIGNED."
+            title: "OXYGEN SCRUBBERS",
+            prompt: "Enter the simplified code for Oxygen Scrubber efficiency (10/20).",
+            hash: "MTI=", // 12
+            hint: "Cancel the zeros.",
+            successMsg: "O2 SCRUBBERS RESTARTING..."
         },
         {
             id: "puzzle_06",
-            title: "THRUSTERS",
-            prompt: "Multiply 5/6 by 2/2. What is the new fraction?",
-            hash: "MTAxMg==", // 1012
-            hint: "5x2 and 6x2.",
-            successMsg: "THRUSTERS ENGAGED. READY FOR BURN."
+            title: "CARBON VENTING",
+            prompt: "Enter the simplified code for Carbon Levels (8/12).",
+            hash: "MjM=", // 23
+            hint: "Divide 8 and 12 by 4.",
+            successMsg: "VENTING SEQUENCE COMPLETE. AIR QUALITY: NORMAL."
         },
         {
             id: "puzzle_07",
-            title: "EMERGENCY SHIELDS",
-            prompt: "Which is NOT equivalent to 1/4? <br>A: 2/8<br>B: 3/12<br>C: 4/10<br>(Enter A, B, or C)",
-            hash: "Qw==", // C
-            hint: "Simplify each option. 4/10 simplifies to 2/5, not 1/4.",
-            successMsg: "SHIELDS CHARGED. DEFENSE SYSTEMS ACTIVE."
+            title: "TRAJECTORY CHECK",
+            prompt: "Is Point A (1/3) equal to Point B (2/6)? (YES/NO)",
+            hash: "WUVT", // YES
+            hint: "Simplify 2/6. Does it match?",
+            successMsg: "TRAJECTORY CONFIRMED."
         },
         {
             id: "puzzle_08",
-            title: "LIFE SUPPORT",
-            prompt: "Commander Z ate 4/8 of a space pizza. Pilot X ate 1/2. Did they eat the same? (YES/NO)",
-            hash: "WUVT", // WUVT
-            hint: "Is 4 half of 8?",
-            successMsg: "LIFE SUPPORT OPTIMAL. CREW MORALE: HIGH."
+            title: "ANOMALY DETECTION",
+            prompt: "Which coordinate is NOT a match for 1/4? (A, B, or C)",
+            hash: "Qw==", // C
+            hint: "Check 4/10. Does it simplify to 1/4?",
+            successMsg: "ANOMALY ISOLATED. PATH CLEAR."
         },
         {
             id: "puzzle_09",
-            title: "LANDING GEAR",
-            prompt: "Reduce 8/12 to its simplest form.",
-            hash: "MjM=", // 23
-            hint: "Divide both by their greatest common divisor (4).",
-            successMsg: "GEAR DEPLOYMENT SYSTEMS FUNCTIONAL."
+            title: "POWER CONSUMPTION",
+            prompt: "Did the Captain (4/8) and Pilot (1/2) use the same power? (YES/NO)",
+            hash: "WUVT", // YES
+            hint: "Simplify 4/8.",
+            successMsg: "POWER LOGS VERIFIED."
         },
         {
             id: "puzzle_10",
-            title: "WARP DRIVE",
-            prompt: "2/10 = x/100. Solve for x to launch the ship!",
+            title: "WARP CORE STABILITY",
+            prompt: "Enter the target integer for core stability (2/10 = x/100).",
             hash: "MjA=", // 20
-            hint: "10 times 10 is 100. So 2 times 10 is...?",
-            successMsg: "WARP DRIVE ACTIVE. LAUNCHING IN 3... 2... 1..."
+            hint: "2/10 is 20%. What is 20% of 100?",
+            successMsg: "WARP CORE STABLE. JUMP IMMINENT."
         }
     ]
 };
